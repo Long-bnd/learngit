@@ -1,0 +1,183 @@
+		*{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            user-select: none;
+        }
+
+        /*消除列表的默认样式*/
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+       }
+
+        /*划分区域一*/
+        .Advantage{
+        	width: 1920px;
+        	height: 845px;
+        	
+            margin:0 auto;
+        }
+        .Advantage .head{
+        	width: 1920px;
+        	height: 84px;
+        	background-color: rgb(255,255,255);
+            border-bottom: 2px solid #c3c3c3;
+        }
+        .Advantage .head .left{
+        	width: 1100px;
+        	height: 84px;
+        	float: left;
+        }
+        .Advantage .head .left .logo-1{
+        	width: 236px;
+        	height: 84px;
+        	line-height: 84px;
+        	
+        	float: left;
+        	margin-left: 360px;
+        	color: black;
+        	font-size: 28px;
+        	cursor: pointer;
+        }
+        .Advantage .head .left .logo-2{
+        	width: 450px;
+        	height: 84px;
+        	float: left;
+        }
+        .Advantage .head .left .logo-2 ul li{
+        	height: 84px;
+        	line-height: 84px;
+        	text-align: center;
+        	margin-left: 44px;
+            color: black;
+            cursor: pointer;/*提示可点击*/
+            float: left;/*让列表横向排列*/
+            font-size: 17px;
+        }
+        .Advantage .head .right{
+        	width: 240px;
+        	height: 84px;
+        	margin-left: 225px;
+        	float: left;
+        	cursor: pointer;/*提示可点击*/
+        }
+        .Advantage .head .right .quote{
+        	width: 110px;
+            height: 34px;
+            margin-top: 25px;
+            color: white;
+            border-radius:10px;
+            background-color: rgb(255,134,39);
+            line-height: 34px;
+            font-size: 15px;
+            text-align: center;
+            float: left;
+        }
+        .Advantage .head .right .phone{
+        	width: 85px;
+        	height: 34px;
+        	margin-top: 25px;
+        	margin-left: 10px;
+        	text-align: 17px;
+        	color: black;
+        	float: left;
+        	font-size: 17px;
+        }
+        .Advantage .head .right .photo{
+        	width: 15px;
+        	height: 10px;
+        	margin-left: 10px;
+        	margin-top: 45px;
+        	float: left;
+        }
+        .Advantage .middle{
+            width: 1920px;
+            height: 761px;
+            position: absolute;
+            background: url("../images/homework-1-02_0003s_0002_bg.png");
+        }
+        .Advantage .middle .text-1{
+            position: relative;
+            width: 857px;
+            height: 49px;
+            line-height: 49px;
+            margin-left: 532px;
+            margin-top: 78px;
+            color: white;
+            font-size: 68px;
+        }
+        .Advantage .middle .text-2{
+            width: 978px;
+            height: 25px;
+            line-height: 25px;
+            margin-left: 473px;
+            font-size: 18px;
+            color:rgb(75,75,71);
+        }
+        .Advantage .middle .choose{
+            margin-top: 71px;
+            margin-left: 837px;
+            width: 246px;
+            height: 41px;
+        }
+        .Advantage .middle .place{
+            margin-left: 297px;
+            margin-top: 67px;
+            width: 1210px;
+            height: 128px;
+        }
+        .Advantage .middle .place img{
+            float: left;
+            margin-left: 112px;
+        }
+        .Advantage .middle .Name{
+            width: 1098px;
+            height: 24px;
+            margin-left: 409px;
+            margin-top: 28px;
+        }
+        .Advantage .middle .Name .name-1,.Advantage .middle .Name .name-2,.Advantage .middle .Name .name-3,.Advantage .middle .Name .name-4,.Advantage .middle .Name .name-5{
+            
+            width: 128px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            float: left;
+            font-size: 18px;
+            color: rgb(97,101,102);
+        }
+        .Advantage .middle .Name .name-1{
+            margin-left: 0px;
+        }
+        .Advantage .middle .Name .name-2{
+            margin-left: 112px;
+        }
+        .Advantage .middle .Name .name-3{
+            margin-left: 112px;
+        }
+        .Advantage .middle .Name .name-4{
+            margin-left: 112px;
+        }
+        .Advantage .middle .Name .name-5{
+            margin-left: 112px;
+        }
+        .Advantage .middle .foot-1,.Advantage .middle .foot-2,.Advantage .middle .foot-3,.Advantage .middle .foot-4,.Advantage .middle .foot-5{
+            margin-top: 22px;
+            
+            width: 240px;
+            height: 110px;
+            text-align: center;
+            line-height: 23px;
+            color: rgb(82,84,82);
+            font-size: 12px;
+            float: left;
+        }
+        .Advantage .middle .foot-1{
+            margin-left: 343px;
+        }
+        .Advantage .middle .foot-2,.Advantage .middle .foot-3,.Advantage .middle .foot-4,.Advantage .middle .foot-5{
+            margin-left: 0px;
+        }

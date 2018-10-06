@@ -1,0 +1,135 @@
+       *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            user-select: none;
+        }
+
+        /*消除列表的默认样式*/
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+       }
+
+        /*划分区域一*/
+        .story{
+        	width: 1920px;
+        	height: 1080px;
+        	background: url("../images/homework-1-02_0000s_0000_2fd72916a0598ecb14283f8471f412a0.png");
+        	margin: 0 auto;
+        }
+        .story .head{
+        	width: 1920px;
+        	height: 84px;
+        	background-color: rgb(145,145,145);
+
+        }
+        .story .head .left{
+        	width: 1100px;
+        	height: 84px;
+        	float: left;
+        }
+        .story .head .left .logo-1{
+        	width: 236px;
+        	height: 84px;
+        	line-height: 84px;
+        	
+        	float: left;
+        	margin-left: 360px;
+        	color: white;
+        	font-size: 28px;
+        	cursor: pointer;
+        }
+        .story .head .left .logo-2{
+        	width: 450px;
+        	height: 84px;
+        	float: left;
+        }
+        .story .head .left .logo-2 ul li{
+        	height: 84px;
+        	line-height: 84px;
+        	text-align: center;
+        	margin-left: 44px;
+            color: white;
+            cursor: pointer;/*提示可点击*/
+            float: left;/*让列表横向排列*/
+            font-size: 1px;
+        }
+        .story .head .right{
+        	width: 240px;
+        	height: 84px;
+        	margin-left: 225px;
+        	float: left;
+        	cursor: pointer;/*提示可点击*/
+        }
+        .story .head .right .quote{
+        	width: 110px;
+            height: 34px;
+            margin-top: 25px;
+            color: white;
+            border-radius:10px;
+            border:3px solid white;
+            line-height: 34px;
+            font-size: 15px;
+            text-align: center;
+            float: left;
+        }
+        .story .head .right .phone{
+        	width: 85px;
+        	height: 34px;
+        	margin-top: 25px;
+        	margin-left: 10px;
+        	text-align: 17px;
+        	color: white;
+        	float: left;
+        	font-size: 17px;
+        }
+        .story .head .right .photo{
+        	width: 15px;
+        	height: 10px;
+        	margin-left: 10px;
+        	margin-top: 45px;
+        	float: left;
+        }
+        .story .body-1, .story .body-2{
+        	width: 750px;
+        	height: 72px;
+        	margin-left: 573px;
+        	margin-top: 224px;
+        	color: white;
+        	text-align: center;
+        	font-size: 54px;
+        }
+        .story .body-2{
+         	margin-top: 10px;
+        }
+        .story .body-3{
+         	width: 325px;
+         	height: 31px;
+         	margin-top: 73px;
+         	margin-left: 785px;
+         	border-bottom: 2px solid white;
+        }
+        .story .body-3 .left,.story .body-3 .right{
+         	font-size: 26px;
+         	height: 29px;
+         	line-height: 29px;
+         	text-align: center;
+         	float: left;
+         	color: white;
+        }
+        .story .body-3 .left{
+        	width: 120px;
+        	
+        }
+        .story .body-3 .right{
+        	width: 156px;
+        	
+        }
+        .story .body-3 .middle{
+        	margin-left: 8px;
+        	margin-right: 8px;
+        	float: left;
+        }

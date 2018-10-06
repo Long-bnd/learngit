@@ -1,0 +1,234 @@
+		*{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            user-select: none;
+        }
+
+        /*消除列表的默认样式*/
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+       }
+
+        /*划分区域一*/
+        .product{
+        	width: 1920px;
+        	height: 960px;
+        	background: url("../images/homework-1-02_0001s_0001s_0002s_0002_矩形-2.png");
+            margin:0 auto;
+        }
+        .product .head{
+        	width: 1920px;
+        	height: 84px;
+        	background-color: rgb(255,255,255);
+            border-bottom: 2px solid #c3c3c3;
+        }
+        .product .head .left{
+        	width: 1100px;
+        	height: 84px;
+        	float: left;
+        }
+        .product .head .left .logo-1{
+        	width: 236px;
+        	height: 84px;
+        	line-height: 84px;
+        	
+        	float: left;
+        	margin-left: 360px;
+        	color: black;
+        	font-size: 28px;
+        	cursor: pointer;
+        }
+        .product .head .left .logo-2{
+        	width: 450px;
+        	height: 84px;
+        	float: left;
+        }
+        .product .head .left .logo-2 ul li{
+        	height: 84px;
+        	line-height: 84px;
+        	text-align: center;
+        	margin-left: 44px;
+            color: black;
+            cursor: pointer;/*提示可点击*/
+            float: left;/*让列表横向排列*/
+            font-size: 17px;
+        }
+        .product .head .right{
+        	width: 240px;
+        	height: 84px;
+        	margin-left: 225px;
+        	float: left;
+        	cursor: pointer;/*提示可点击*/
+        }
+        .product .head .right .quote{
+        	width: 110px;
+            height: 34px;
+            margin-top: 25px;
+            color: white;
+            border-radius:10px;
+            background-color: rgb(255,134,39);
+            line-height: 34px;
+            font-size: 15px;
+            text-align: center;
+            float: left;
+        }
+        .product .head .right .phone{
+        	width: 85px;
+        	height: 34px;
+        	margin-top: 25px;
+        	margin-left: 10px;
+        	text-align: 17px;
+        	color: black;
+        	float: left;
+        	font-size: 17px;
+        }
+        .product .head .right .photo{
+        	width: 15px;
+        	height: 10px;
+        	margin-left: 10px;
+        	margin-top: 45px;
+        	float: left;
+        }
+        .product .text-1{
+            width: 1088px;
+            height: 63px;
+            margin-left: 432px;
+            line-height: 60px;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 80PX;
+            
+        }
+        .product .text-2{
+            width: 846px;
+            height: 23px;
+            margin-top: 23px;
+            line-height: 23px;
+            margin-left: 573px;
+            text-align: center;
+            font-size: 17PX;
+        }
+        .product .photo-2{
+            width: 1122px;
+            margin-top: 23px;
+            margin-left: 386px;
+        }
+        .product .photo-2 .text-1{
+            width: 268px;
+            height: 10px;
+            background: url("../images/homework-1-02_0001s_0001s_0000s_0003_ECOMMERCE-&-MAGENTO-DEVELOPMENT.png");
+            margin-left: 457px;
+        }
+        
+        .product .photo-2 .ShoppingCart{
+            width: 121px;
+            height: 121px;
+            margin-top: 16px;
+            margin-left: 533px;
+           
+        }
+        .product .photo-2 .text-2{
+            width: 199px;
+            height: 11px;
+            margin-top: 99px;
+            margin-left: 0px;
+            float: left;
+           
+        }
+        .product .photo-2 .apps{
+            width: 121px;
+            height: 121px;
+            margin-left: 12px;
+            margin-top: 32px;
+            float: left;
+            
+        }
+        .product .photo-2 .text-3{
+            width: 123px;
+            height: 11px;
+            margin-right: 8px;
+            margin-top: 99px;
+            float: right;
+            
+        }
+        .product .photo-2 .fg{
+            width: 121px;
+            height: 121px;
+            margin-top: 32px;
+            margin-right: 9px;
+            float: right;
+            
+        }
+        .product .photo-2 .text-4{
+            width: 112px;
+            height: 11px;
+            margin-top: 351px;
+            margin-left: -320px;
+            float: left;
+            
+        }
+        .product .photo-2 .computer{
+            width: 121px;
+            height: 121px;
+            margin-left: -195px;
+            margin-top: 290px;
+           
+            float: left;
+        }
+        .product .photo-2 .text-5{
+            width: 28px;
+            height: 11px;
+            margin-top: 351px;
+            margin-right: -234px;
+            float: right;
+            
+        }
+        .product .photo-2 .gear{
+            width: 121px;
+            height: 121px;
+            margin-right: -191px;
+            margin-top: 290px;
+           
+            float: right;
+        }
+        .product .photo-2 .middle{
+            width: 438px;
+            height: 438px;
+            margin-top: 99px;
+            margin-left: 43px;
+            float: left;
+            background: url("../images/homework-1-02_0001s_0001s_0001s_0001_椭圆-1.png");
+        }
+        .product .photo-2 .middle .head{
+            width: 149px;
+            height: 149px;
+            margin-top: 75px;
+            margin-left: 146px;
+        }
+        .product .photo-2 .middle .head img{
+            width: 100%;
+            height: 100%;
+        }
+        .product .photo-2 .middle .logo{
+            width: 85px; 
+            height: 29px;
+            margin-top: 15px;
+            margin-left: 179px;
+            font-size: 40px;
+            color: white;
+            line-height: 29px;
+            text-align: center;
+        }
+        .product .photo-2 .middle .foot{
+            width: 351px;
+            height: 75px;
+            margin-left: 36px;
+            margin-top: 25px;
+            color: white;
+            font-size: 16px;
+            text-align: center;
+        }
