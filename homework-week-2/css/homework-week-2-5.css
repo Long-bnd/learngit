@@ -1,0 +1,219 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            user-select: none;
+        }
+        /*消除列表的默认样式*/
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+       }
+       .belong{
+        width: 1175px;
+        height: 1450px;
+        margin: 0 auto;
+
+       }
+       .belong .head-1{
+        
+        width: 530px;
+        height: 175px;
+       
+        margin: 0 auto;
+         margin-top: 60px;
+       }
+       .belong .head-1 .text-1{
+        
+        width: 290px;
+        height: 60px;
+        margin: 0 auto;
+        font-size: 72px;
+        line-height: 60px;
+        margin-top: 60px;
+       }
+       .belong .head-1 .text-2{
+       
+        width: 530px;
+        height: 30px;
+        margin: 0 auto;
+        font-size: 26px;
+        line-height: 30px;
+         margin-top: 35px;
+       }
+       .belong .head-1 .text-3{
+        
+        width: 75px;
+        height: 5px;
+        margin: 0 auto;
+        margin-top: 30px;
+       }
+       .belong .middle-1{
+        width: 1175px;
+        height: 660px;
+        margin: 0 auto;
+        margin-top: 70px;
+        position: absolute;
+        background: url("../images/boom.jpg");
+        background-size: 100% 100%;
+        cursor: pointer;
+       }
+       .belong .middle-1 .top{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 260px;
+        height: 60px;
+        text-align: center;
+       }
+       .belong .middle-1 .top p{
+        font-size: 24px;
+        line-height: 20px;
+        color: white;
+       }
+       .belong .middle-1 .top span{
+        font-size: 10px;
+        line-height: 10px;
+        color: white;
+       }
+       .belong .middle-1 .dibu{
+        width: 800px;
+        height: 20px;
+        margin-left: 30px;
+        margin-top: 500px;
+        font-size: 10px;
+        line-height: 10px;
+
+        color: white;
+       }
+       .belong .box-1{
+        width: 300px;
+        height: 400px;
+        margin-top: 765px;
+        float: left;
+        background-color: rgb(255,204,0);
+        cursor: pointer;
+       }
+       .belong .box-1 .top-1{
+        width: 300px;
+        height: 172px;
+       }
+       .belong .box-1 .word-1{
+        width: 250px;
+        height: 90px;
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: center;
+        line-height: 18px;
+       }
+       .belong .box-1 .learn{
+        width: 150px;
+        height: 45px;
+        margin:  0 auto;
+        margin-top: 66px;
+        line-height: 45px;
+        font-size: 15px;
+        background-color: white;
+        text-align: center;
+       }
+       .belong .blank{
+        width: 40px;
+        height: 400px;
+        float: left;
+       }
+       .belong .box-2{
+        width: 300px;
+        height: 400px;
+        margin-top: 765px;
+        float: left;
+        background: url("../images/nationalgeographic_1426567.jpg");
+        background-size: 100% 100%;
+        cursor: pointer;
+       }
+       .belong .box-2 .word-2{
+        width: 235px;
+        height: 120px;
+        margin: 0 auto;
+        margin-top: 110px;
+        text-align: center;
+        color: white;
+        font-size: 17px;
+       }
+       .belong .box-2 .word-2 p{
+        font-size: 28px;
+       }
+       .belong .box-2 .join{
+        width: 110px;
+        height: 45px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 95px;
+        font-size: 15px;
+        line-height: 45px;
+        background-color: rgb(255,204,0);
+       }
+       .belong .box-3{
+         width: 300px;
+        height: 400px;
+        margin-top: 765px;
+        float: left;
+        
+       }
+       .belong .box-3 .head-3{
+        width: 300px;
+        height: 42px;
+       }
+       .belong .box-3 .head-3 .zuo{
+        width: 4px;
+        height: 42px;
+        float: left;
+       }
+       .belong .box-3 .head-3 .word-3{
+        width: 240px;
+        height: 21px;
+        margin-left: 20px;
+        font-size: 21px;
+        line-height: 21px;
+       }
+       .belong .box-3 .middle-3{
+        width: 300px;
+        height: 115px;
+        margin-top: 20px;
+       }
+       .belong .box-3 .middle-3 .photo-3{
+        width: 115px;
+        height: 115px;
+        float: left;
+        cursor: pointer;
+       }
+       .belong .box-3 .middle-3 .photo-3 img{
+        width: 115px;
+        height: 115px;
+       }
+       .belong .box-3 .middle-3 .word-3-1{
+        width: 160px;
+        height: 115px;
+        margin-left: 10px;
+        font-size: 15px;
+        line-height: 20px;
+        float: left;
+       }
+       .belong .box-3 .middle-3 .word-3-1 :hover{
+        text-decoration: underline;
+        cursor:pointer;
+       }
+       .belong .box-3 .middle-3 .word-3-1 p{
+        color: grey;
+       }
+       .belong .box-3 .see{
+        width: 70px;
+        height: 20px;
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 18px;
+        border-bottom: 2px solid yellow;
+        cursor: pointer;
+       }
+

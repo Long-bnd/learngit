@@ -1,0 +1,176 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            user-select: none;
+        }
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        }
+        .search{
+        	width: 100%;
+        	height: 500px;
+        	background: url("../images/MossForest.adapt.1190.1.jpg");
+        	background-size: 100% 100%;
+        	position: absolute;
+        	top: 9700px;
+
+        }
+        .search .head{
+        	width: 1300px;
+        	height: 150px;
+        	margin: 0 auto;
+        	font-size: 40px;
+        	line-height: 45px;
+        	text-align: center;
+        	margin-top: 20px;
+        	position: relative;
+        	margin-top: 100px;
+        	color: white;
+        }
+        .search .head p{
+        	line-height: 20px;
+        	font-size: 23px;
+        }
+        .search .sch{
+        	width: 720px;
+        	height: 65px;
+        	margin: 0 auto;
+        	margin-top: 30px;
+        }
+        .search .sch input{
+        	width: 90%;
+            height: 100%;
+            float: left;
+        }
+        .search .sch .photo{
+        	width: 72px
+        	height: 65px;
+        	float: left;
+        }
+        .search .sch .photo img
+        {
+        	width: 72px;
+        	height: 65px;
+        }
+        .search .word{
+        	width: 640px;
+        	height: 65px;
+        	color: grey;
+        	font-size: 17px;
+        	line-height: 20px;
+        	text-align: center;
+        	margin: 0 auto;
+        	margin-top: 30px;
+        }
+        .search .word a{
+        	color: grey;
+        }
+        .bottom{
+        	width: 100%;
+        	height: 730px;
+        	background-color: black;
+        	position: absolute;
+        	top: 10200px;
+        	border-bottom: 1px solid grey;
+        }
+        .bottom .shang{
+        	width: 1200px;
+        	height: 485px;
+            margin: 0 auto;
+            color: white;
+            font-size: 10px;
+            position: relative;
+        }
+        .bottom .shang .box{
+        	width: 325px;
+        	height: 450px;
+        	float: left;
+        }
+        .bottom .shang .box .title{
+        	width: 325px;
+        	height: 20px;
+        	margin-top: 50px;
+        	line-height: 20px;
+        	font-size: 20px;
+        }
+        .bottom .shang .box ul li{
+        	width: 325px;
+        	height: 20px;
+        	margin-top: 20px;
+        	
+        }
+        .bottom .shang .box ul li p:hover{
+            text-decoration: underline;
+            cursor:pointer;
+        }
+        .bottom .shang .box-1{
+        	width: 200px;
+        	height: 450px;
+        	
+        	float: left;
+        }
+        .bottom .shang .box-1 .country{
+        	margin-top: 50px;
+        	width: 165px;
+        	height: 30px;
+        	cursor:pointer;
+        	margin-left: -10px;
+        }
+        .bottom .shang .box-1 .fllow{
+        	width: 120px;
+        	height: 20px;
+        	margin-top: 40px;
+        	line-height: 20px;
+        	font-size: 20px;
+        }
+        .bottom .shang .box-1 .photologo{
+        	width: 200px;
+        	height: 26px;
+        	margin-top: 20px;
+        }
+        .bottom .shang .box-1 .photologo ul li{
+        	float: left;
+            width: 25px;
+        	height: 26px;
+        	margin-right: 25px;
+        }
+        .bottom .shang .box-1 .photologo ul li img{
+        	width: 25px;
+        	height: 26px;
+        	cursor:pointer;
+        }
+        .bottom .line{
+        	width: 100%;
+        	height: 1px;
+        	background-color: grey;
+        }
+        .bottom .foot-10{
+        	width: 1200px;
+        	height: 60px;
+        	margin: 0 auto;
+        	margin-top: 40px;
+
+        }
+        .bottom .foot-10 .zuophoto{
+        	width: 180px;
+        	height: 64px;
+        	float: left;
+        	
+        	margin-left: -10px;
+        	cursor:pointer;
+        	
+        }
+        .bottom .foot-10 .zuotext{
+        	width: 980px;
+        	height: 25px;
+        	line-height: 25px;
+        	margin-left: 10px;
+        	font-size: 10px;
+        	color: grey;
+        	margin-top: 20px;
+        	float: left;
+        }

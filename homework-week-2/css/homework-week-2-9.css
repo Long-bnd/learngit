@@ -1,0 +1,74 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            user-select: none;
+        }
+        .shop{
+        	width: 1275px;
+        	height: 1200px;
+        	margin: 0 auto;
+        	position: relative;
+        	top: 1400px;
+        }
+        .shop .head{
+        	width: 1275px;
+        	height: 200px;
+        	font-size: 85px;
+        	line-height: 50px;
+        	text-align: center;
+        	
+        }
+        .shop .head p{
+        	line-height: 23px;
+        	font-size: 22px;
+        }
+        .shop .littlephoto{
+        	width: 75px;
+        	height: 6px;
+            margin: 0 auto;
+            margin-top: -22px;
+
+        }
+        .shop .box{
+        	width: 390px;
+        	height: 620px;
+        	margin-top: 30px;
+        	float: left;
+        }
+        .shop .box .photo{
+        	width: 390px;
+        	height: 390px;
+            cursor: pointer;
+        }
+        .shop .box .photo img{
+        	width: 390px;
+        	height: 390px;
+        }
+        .shop .box .word{
+        	margin-top: 40px;
+        	line-height: 25px;
+        	height: 100px;
+        	text-align: center;
+        	font-size: 28px;
+        }
+        .shop .box .word p:hover{
+            cursor: pointer;
+            color: grey;
+        }
+        .shop .box .store{
+        	width: 230px;
+        	height: 55px;
+        	line-height: 55px;
+        	margin: 0 auto;
+        	font-size: 18px;
+        	text-align: center;
+        	background-color: rgb(255,204,0);
+            cursor: pointer;
+        }
+        .shop .blank{
+        	width: 52.5px;
+        	height: 620px;
+        	float: left;
+        }

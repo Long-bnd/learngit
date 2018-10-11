@@ -1,0 +1,256 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            user-select: none;
+        }
+        /*消除列表的默认样式*/
+        ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        }
+
+        .travelbg{
+            width: 100%;
+            height: 1281px;
+            margin: 0 auto;
+            background-image: url("../images/nationalgeographic_2469778.adapt.1900.1.jpg");
+            background-repeat:no-repeat; background-attachment:fixed;
+            background-size: 100% 100%;  
+            position: relative;
+        }
+        .travelbg .travel{
+        	width: 1278px;
+        	height: 1281px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        	margin: auto;
+        	
+        }
+        .travelbg .travel .head{
+            position: relative;
+        	margin-top: 120px;
+        	width: 830px;
+        	height: 170px;
+        	margin: 0 auto;
+        }
+        .travelbg .travel .head .word-1{
+        	margin: 0 auto;
+        	font-size: 70px;
+        	color: black;
+        	width: 262px;
+        	height: 60px;
+        	
+            margin-top: 30px;
+        }
+        .travelbg .travel .head .word-2{
+        	margin: 0 auto;
+        	margin-top: 43px;
+        	width: 687px;
+        	height: 32px;
+        	line-height: 32px;
+        	font-size: 29px;
+        	color: black;
+        }
+        .travelbg .travel .head .box{
+        	margin: 0 auto;
+        	width: 75px;
+        	height: 5px;
+        	margin-top: 25px;
+        }
+        .travelbg .travel .middle{
+        	width: 1280px;
+        	height: 920px;
+        	margin: 0 auto;
+        	margin-top: 120px;
+        	
+        }
+        .travelbg .travel .middle .left{
+        	float: left;
+        	width: 400px;
+        	height: 920px;
+        }
+        .travelbg .travel .middle .left .head{
+        	width: 310px;
+        	height: 25px;
+        	line-height: 25px;
+        	font-size: 33px;
+        	color: white;
+        }
+        .travelbg .travel .middle .left .head .zuo{
+        	height: 25px;
+        	width: 6px;
+        	float: left;
+        }
+        .travelbg .travel .middle .left .head .zuo img{
+        	width: 100%;
+        	height: 100%;
+        }
+        .travelbg .travel .middle .left ul li{
+        	width: 400px;
+        	height: 125px;
+        	float: left;
+        	margin-top: 15px;
+        	
+        	padding-left: 20px;
+
+        }
+        .travelbg .travel .middle .left ul li .photo
+        {
+            width: 115px;
+            height: 115px;
+            float: left;
+            cursor: pointer;
+        }
+        .travelbg .travel .middle .left ul li .photo img{
+        	width: 115px;
+        	height: 115px;
+        }
+        .travelbg .travel .middle .left ul li .text{
+        	width: 230px;
+        	height: 125px;
+        	float: left;
+        	margin-left: 25px;
+        	font-size: 18px;
+        	color: white;
+            
+        }
+        .travelbg .travel .middle .left ul li .text :hover{
+            text-decoration: underline;
+            cursor:pointer;
+        }
+        .travelbg .travel .middle .left .buttom{
+        	width: 110px;
+        	height: 27px;
+        	margin-top: 20px;
+        	margin-left: 20px;
+        	border-bottom: 2px solid yellow;
+        	font-size: 22px;
+        	line-height: 25px;
+        	color: white;
+        	float: left;
+            cursor: pointer;
+        }
+        .travelbg .travel .middle .right{
+        	float: left;
+        	width: 825px;
+        	height: 433px;
+        	background: url("../images/gettyimages-72654996-go-on-safari.adapt.133.1.jpg") no-repeat;
+            background-size: 100% 100%;
+            cursor: pointer;
+        }
+        .travelbg .travel .middle .right .text{
+        	width: 720px;
+        	height: 205px;
+        	margin-left: 20px;
+        	margin-top: 252px;
+        }
+        .travelbg .travel .middle .right .text p{
+        	color: white;
+        	font-size: 16px;
+            line-height: 16px;
+        }
+        .travelbg .travel .middle .right .text span{
+        	color: white;
+        	font-size: 31px;
+        	line-height: 50px;
+        }
+        .travelbg .travel .middle .right .gang{
+        	width: 15px;
+        	height: 14px;
+        	float: left;
+        	margin-left: 20px;
+        	margin-top: 30px;
+        	padding-top: 1px;
+        	/*border-top: 2px solid white;
+        	border-bottom: 2px solid white;*/
+        }
+        .travelbg .travel .middle .right .gang .top{
+        	width: 15px;
+        	height: 6px;
+        	border-top: 2px solid white;
+        	border-bottom: 2px solid white;
+        }
+        .travelbg .travel .middle .right .read{
+        	width: 60px;
+        	height: 14px;
+        	margin-left: 10px;
+        	margin-top: 30px;
+            float: left;
+            color: white;
+            font-size: 20px;
+        }
+        .travelbg .travel .middle .right .button{
+        	width: 825px;
+        	height: 520px;
+        	margin-top: 10px;
+        	float: left;
+        }
+        .travelbg .travel .middle .right .button .blank{
+            width: 51px;
+            height: 465px;
+            float: left;
+        }
+        .travelbg .travel .middle .right .button .box-1{
+        	width: 387px;
+        	height: 465px;
+        	float: left;
+            background: url("../images/nationalgeographic_1223429-trip-promo.adapt.885.1.jpg");
+            background-size: 100% 100%;
+            cursor: pointer;
+        }
+        .travelbg .travel .middle .right .button .box-1 .word-3{
+            width: 190px;
+            height: 65px;
+            margin-top: 140px;
+            margin-left: 97px;
+            font-size: 30px;
+            line-height: 32px;
+            color: white;
+            text-align: center;
+        }
+        .travelbg .travel .middle .right .button .box-1 .word-4{
+            width: 150px;
+            height: 45px;
+            margin-top: 140px;
+            margin-left: 118px;
+            background-color: yellow;
+            line-height: 45px;
+            font-size: 16px;
+            text-align: center;
+        }
+        .travelbg .travel .middle .right .button .box-2{
+            width: 387px;
+            height: 465px;
+            float: left;
+            background: url("../images/expert-bertie-gregory.adapt.885.1.jpg");
+            background-size: 100% 100%;
+            cursor: pointer;
+        }
+        .travelbg .travel .middle .right .button .box-2 .word-5{
+            width: 234px;
+            height: 127px;
+            margin-top: 205px;
+            margin-left: 97px;
+            font-size: 26px;
+            line-height: 32px;
+            color: white;
+            text-align: center;
+        }
+        .travelbg .travel .middle .right .button .box-2 .word-6{
+            width: 150px;
+            height: 45px;
+            margin-top: 10px;
+            margin-left: 118px;
+            background-color: yellow;
+            line-height: 45px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        
