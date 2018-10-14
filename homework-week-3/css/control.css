@@ -1,0 +1,266 @@
+@media screen and (min-width: 959px){
+
+    .header .toolbar .container,
+    .head,
+    .grid{
+	    width: 940px;
+    }
+    .main{
+    	width: 1002px;
+    }
+    .main .Sowingmap{
+    	height: 512px;
+    }
+    .main .title-1 .word{
+    	margin-left: -858px;
+    }
+    .foot{
+    	width: 1002px;
+    }
+}
+@media screen and (max-width: 767px){
+	.header{
+		height: 71px;
+	}
+	.header .toolbar .container{
+		width: 420px;
+		height: 71px;
+	}
+	.header .toolbar .container ul li{
+        float: right;   
+    }
+    .head{
+    	width: 420px;
+    	height: 60px;
+    }
+    .head .selectbox ul li{
+    	display: none;
+    }
+    .head select{
+    	display: inline-block;
+    	margin-top: 10px;
+    }
+    .main,
+    .foot{
+    	width: 462px;
+    }
+    .grid .word ul li{
+    	display: none;
+    }
+    .main .Sowingmap{
+    	width: 420px;
+    	height: 275px;
+    }
+    .main .Sowingmap .photo{
+    	
+    	height: 160px;
+    	margin: 0 auto;
+    }
+    .main .Sowingmap .word{
+    	width: 100%;
+    	font-size: 15px;
+    	line-height: 22px;
+    	margin-top: 36px;
+    	height: 65px;
+    }
+    .main .Sowingmap .controls{
+    	display: none;
+    }
+    .main .title-1 .word{
+    	margin-left: 0;
+    }
+    .main .clearbox ul li{
+    	width: 440px;
+    	height: 370px;
+    	margin-top: 20px;
+        margin-left: 10px;
+    }
+    .main .clearbox ul li .box{
+    	width: 440px;
+    	height: 370px;
+    	margin-left: 10px;
+    	margin-top: 10px;
+    }
+    .main .clearbox ul li .box .photo{
+    	width: 420px;
+    	height: 260px;
+    }
+    .main .title-2{
+    	margin-top: 1260px;
+    }
+    .main .clearfix{
+    	height: 490px;
+    }
+    .main .clearfix .left{
+    	width: 100%;
+    	height: 90px;
+    }
+    .main .clearfix .right{
+    	width: 94%;
+        margin-left: 3%;
+        margin-top: 0;
+    }
+    .main .clearfix .right .first{
+    	width: 100%;
+    	height: 60px;
+    }
+    .main .clearfix .right .blank{
+    	display: none;
+    }
+    
+    .foot .section{
+    	height: 610px;
+    }
+    .foot .section .box-1{
+    	width: 90%;
+    	height: 210px;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+    .foot .section .box-2{
+    	width: 90%;
+    	height: 270px;
+    	margin-left: 5%;
+    	margin-top: -10px;
+    }
+    .foot .section .box-3{
+    	width: 90%;
+    	height: 90px;
+    	margin-left: 5%;
+    	margin-top: -55px;
+    }
+    .foot .section .box-4{
+    	width: 90%;
+    	height: 105px;
+    	margin-left: 5%;
+    	margin-top: 0px;
+    }
+    .grid{
+    	width: 460px;
+    }
+}
+@media screen and (max-width: 479px){
+    .header{
+		height: 91px;
+	}
+	.header .toolbar .container{
+		width: 300px;
+		height: 66px;
+	}
+	.header .toolbar .container ul li{
+        float: right;   
+    }
+    .head{
+    	width: 300px;
+    	height: 75px;
+    }
+    .head .selectbox ul li{
+    	display: none;
+    }
+    .head select{
+    	display: inline-block;
+    	margin-top: 10px;
+    }
+    .main,
+    .foot{
+    	width: 328px;
+    }
+    .grid .word ul li{
+    	display: none;
+    }
+    .main .Sowingmap{
+    	width: 320px;
+    	height: 270px;
+    }
+    .main .Sowingmap .photo{
+    	
+    	height: 115px;
+    	margin: 0 auto;
+    }
+    .main .Sowingmap .word{
+    	width: 100%;
+    	font-size: 16px;
+    	line-height: 25px;
+    	margin-top: 36px;
+    	height: 119px;
+    }
+    .main .Sowingmap .controls{
+    	display: none;
+    }
+    .main .title-1 .word{
+    	margin-left: 0;
+    }
+    .main .clearbox ul li{
+    	width: 320px;
+    	height: 316px;
+    	margin-top: 20px;
+        margin-left: 4px;
+    }
+    .main .clearbox ul li .box{
+    	width: 320px;
+    	height: 316px;
+    	margin-left: 10px;
+    	margin-top: 10px;
+    }
+    .main .clearbox ul li .box .photo{
+    	width: 300px;
+    	height: 186px;
+    }
+    .main .clearbox ul li .box .word
+    {
+    	width: 94%;
+    }
+    .main .title-2{
+    	margin-top: 1070px;
+    }
+    .main .clearfix{
+    	height: 540px;
+    }
+    .main .clearfix .left{
+    	width: 100%;
+    	height: 90px;
+    }
+    .main .clearfix .right{
+    	width: 94%;
+        margin-left: 3%;
+        margin-top: 0;
+    }
+    .main .clearfix .right .first{
+    	width: 100%;
+    	height: 60px;
+    }
+    .main .clearfix .right .blank{
+    	display: none;
+    }
+    
+    .foot .section{
+    	height: 610px;
+    }
+    .foot .section .box-1{
+    	width: 90%;
+    	height: 210px;
+        margin-left: 5%;
+        margin-top: 10px;
+    }
+    .foot .section .box-2{
+    	width: 90%;
+    	height: 270px;
+    	margin-left: 5%;
+    	margin-top: -10px;
+    }
+    .foot .section .box-3{
+    	width: 90%;
+    	height: 90px;
+    	margin-left: 5%;
+    	margin-top: -55px;
+    }
+    .foot .section .box-4{
+    	width: 90%;
+    	height: 105px;
+    	margin-left: 5%;
+    	margin-top: 0px;
+    }
+    .grid{
+    	width: 261px;
+    }
+}

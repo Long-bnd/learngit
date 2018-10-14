@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    user-select: none;
+    background: url("../images/background/1.png");
+}
+/*消除列表的默认样式*/
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #239cc3;
+}
+/******************************************************/
+.header{
+	width: 100%;
+	height: 55px;
+	background-color: white;
+	border-top: 4px solid #239cc3;
+	border-bottom: 1px solid #d5d5d5;
+	
+}
+.header .toolbar{
+	width: 100%;
+	height: 16px;
+	margin-top: 17px;
+	
+	
+}
+.header .toolbar .container{
+	width: 748px;
+	height: 20px;
+	margin: 0 auto;
+}
+.header .toolbar .container p{
+	float: left;
+	font-size: 11px;
+	line-height: 20px;
+    display: inline;
+    margin-left: 10px;
+}
+.header .toolbar .container ul li{
+	float: right;
+	width: 28px;
+	height: 20px;
+}
+/******************************************************/
+.head{
+	width: 748px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.head .logo{
+	height: 40px;
+	float: left;
+}
+.head .logo img{
+    margin-top: 9px;
+    cursor: pointer;
+}
+.head .selectbox{
+	float: right;
+	
+	height: 40px;
+}
+.head select{
+	width: 100%;
+	height: 20px;
+	display: none;
+}
+
+.head .selectbox ul li{
+	float: right;
+	height: 17px;
+	margin-top: 6px;
+	margin-left: 15px;
+	color: rgb(133,133,133);
+}
+.head .selectbox ul li p:hover{
+	cursor: pointer;
+	color: black;
+}
+/******************************************************/
+.main{
+	width: 768px;
+	margin: 0 auto;
+    background-color: white;
+}
+.main .Sowingmap{
+	width: 97.4%;
+	height: 460px;
+	margin: 0 auto;
+    
+}
+.main .Sowingmap .photo{
+	width: 100%;
+	height: 73%;
+	margin-top: 20px;
+	position: relative;
+	top: 15px;
+}
+.main .Sowingmap .photo img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.main .Sowingmap .word{
+	margin-top: 3%;
+	width: 87%;
+	height: 42.8%;
+	font-size: 24px;
+	line-height: 32px;
+	float: left;
+}
+.main .Sowingmap .word a{
+	text-decoration: none;
+	color: #239cc3;
+}
+.main .Sowingmap .controls{
+	float: right;
+	margin: 50px 0 0 0;
+	overflow: hidden;
+}
+.main .Sowingmap .controls a{
+	display: block;
+    float: left;
+    margin-left: 7px;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    background-color: #333;
+    color: #ccc;
+}
+.main .title-1{
+	width: 100%;
+	height: 30px;
+	border-left: 3px solid #239cc3;
+	background: url("../images/background/5PA%O1RYR3K0P0)}{}RZW7N.png");
+}
+.main .title-1 .word{
+	width: 90px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: -657px;
+	background-color: white;
+	float: left;
+}
+.main .clearbox{
+	width: 100%;
+	height: 300px;
+	
+}
+.main .clearbox ul li{
+	width: /*192px*/25%;
+	height: /*257px*/86%;
+	margin-top: -6%;
+	float: left;
+}
+.main .clearbox ul li:hover{
+	cursor: pointer;
+	background: rgb(247,247,247);
+}
+.main .clearbox ul li .box{
+	width: /*172px*/90%;
+	height: /*257px*/100%;
+	float: left;
+	margin-left: 5%;	
+}
+.main .clearbox ul li .box .photo{
+	width: 100%;
+	height: /*106px*/41.2%;
+}
+.main .clearbox ul li .box .photo img{
+	width: /*172px*/100%;
+	height: /*106px*/100%;
+}
+.main .clearbox ul li .box .gallery-title{
+	width: /*172px*/100%;
+	height: 20px;
+	margin-top: 20px;
+	line-height: 20px;
+	font-size: 13px;
+}
+.main .clearbox ul li .box .word{
+	width: /*172px*/100%;
+	height: /*100px*/33.3%;
+	margin-top: 15px;
+	font-size: 11px;
+	line-height: 20px;
+}
+.main .title-2{
+	width: 100%;
+	height: 30px;
+	border-left: 3px solid #239cc3;
+	background: url("../images/background/5PA%O1RYR3K0P0)}{}RZW7N.png");
+}
+.main .title-2 .word{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 0;
+	background-color: white;
+	float: left;
+}
+.main .clearfix{
+	width: 100%;
+	height: 310px;
+}
+.main .clearfix .left{
+	width: /*172px*/22.4%;
+	height: /*90px*/29%;
+	margin-top: 25px;
+	float: left;
+	
+}
+.main .clearfix .left ul li{
+	width: /*162px*/94%;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 5px 8px;
+}
+.main .clearfix .left ul li:hover{
+	cursor: pointer;
+	background-color: rgb(240,240,240);
+}
+.main .clearfix .right{
+	width: /*556px*/72.4%;
+	height: /*256px*/82.6%;
+	
+	float: left;
+	margin-top: 25px;
+}
+.main .clearfix .right p{
+	font-size: 11px;
+	line-height: 20px;
+}
+.main .clearfix .right a{
+	text-decoration: none;
+	color: rgb(26,116,144);
+}
+.main .clearfix .right .first{
+	width: /*170px*/30.6%;
+	height: /*140px*/54.7%;
+	
+	margin-top: 20px;
+	float: left;
+}
+.main .clearfix .right .first .photo{
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+.main .clearfix .right .first .text{
+	width: /*128px*/75.3%;
+    font-size: 10px;
+    line-height: 20px;
+    float: left;
+}
+.main .clearfix .right .blank{
+	width: /*23px*/4.1%;
+	height: /*140px*/54.7%;
+	float: left;
+}
+/******************************************************/
+.foot{
+	width: 770px;
+	margin: 0 auto;
+}
+.foot .section{
+	width: 100%;
+	height: 360px;
+	margin-top: 40px;
+	background-color: black;
+	color: white;
+}
+.foot .section .box-4,
+.foot .section .box-3,
+.foot .section .box-2,
+.foot .section .box-1{
+	width: /*172px*/22.3%;
+	height: /*329px*/91.4%;
+	margin-top: 30px;
+	
+	
+	/*position: absolute;*/
+	float: left;
+}
+.foot .section .box-1{
+	margin-left: /*10px*/5.8%;
+	line-height: 20px;
+	
+}
+.foot .section .box-4 p,
+.foot .section .box-3 p,
+.foot .section .box-1 p{
+	color: rgb(204,204,204);
+	font-size: 11px;
+}
+.foot .section .title{
+	width: /*172px*/100%;
+	height: 28px;
+}
+.foot .section .underline{
+	width: /*30px*/17.4%;
+	height: 3px;
+	background-color: #239CC3;
+}
+
+.foot .section .box-2 ul li{
+    width: /*172px*/100%;
+    height: /*31px*/9.4%;
+    border-bottom: 1px solid #222222;
+    
+}
+.foot .section .box-2 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.foot .section .box-2 ul li a:hover{
+	text-decoration: underline;
+}
+/******************************************************/
+.grid{
+	width: 748px;
+	height: 100px;
+	margin-top: 10px;
+	margin: 0 auto;
+}
+.grid .word{
+	width: 100%;
+	height: 20px;
+	margin-top: 10px;
+	line-height: 20px;
+	font-size: 10px;
+}
+.grid .word p{
+	float: left;
+}
+.grid .word ul li{
+	float: right;
+	margin-left: 10px;
+}
+.grid .word ul li:hover{
+	cursor: pointer;
+	color: #239cc3;
+}
