@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+	user-select: none;
+}
+.box{
+	width: 940px;
+	height: 512px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.box .photo{
+	width: 940px;
+	height: 360px;
+}
+.box .word{
+	width: 843px;
+	height: 122px;
+	float: left;
+}
+.box .button-left{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    float: right;
+    margin-left: 10px;
+}
